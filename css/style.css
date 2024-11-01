@@ -1,0 +1,169 @@
+pre {
+	background-color:#FFFFE0;
+	padding:5px;
+	border:1px solid #666600;
+}
+
+ol, ul, li {
+	padding: 0 !important;
+	margin: 0 !important;
+	list-style: none;
+}
+
+li.show {
+	list-style: decimal inside;
+}
+
+#output, .header-holder, .conveyancing, .illustration {
+	max-width: 780px;
+}
+
+#output {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+#output .bundle {
+	width: 48%;
+	float: left;
+}
+
+#output .bundle:nth-child(odd) {
+	margin: 0 2% 0 0;
+	clear: left;
+}
+
+#output .bundle label, #output .bundle input, #output .bundle select, #output .bundle textarea, .input select {
+	float: left;
+	width: 46%;
+	margin: 4px 2px;
+	padding: 6px 3px;
+}
+
+#output .bundle input, #output .bundle select, .input .bundle select {
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+
+#output input[type="submit"] {
+	clear: both;
+	float: right;
+}
+
+#output .bundle input[type="hidden"] {
+	width: 0.5%;
+}
+
+dfn {
+	display: none;
+}
+
+#results-rows {
+	clear: both;
+	padding-top: 20px;
+}
+
+.conveyancing, .feedback {
+	border-radius: 8px 8px 8px 8px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
+	margin: 0 0 10px 0 !important;
+	padding: 0 !important;
+	clear: left;
+}
+
+.results-header li, .results-table li {
+	display: inline;
+	list-style: none;
+	float: left;
+	width: 15%;
+	text-align: center;
+	background: #ffffff;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.results-table li {
+	height: 150px;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	vertical-align: middle;
+}
+
+.results-table li:last-child {
+	border-right: 0;
+}
+
+.results-header li.sol-name, .results-table li.sol-name {
+	width: 24%;
+}
+
+.results-table li.fb_comment {
+	width: 80%;
+	text-align: left;
+}
+
+.results-table li.fb_score, .results-table li.fb_comment {
+	height: auto !important;
+	border-bottom: 0;
+}
+
+.results-table li.headline {
+	background: #F7D2CA;
+}
+
+.results-table li h2 {
+	font-size: 16pt;
+}
+
+.additional-text {
+	clear: left;
+	font-size: 10pt;
+	background: #F4B8AB;
+	padding: 0.5px;
+}
+
+.additional-text p, .fb_details p {
+	position: relative;
+	left: 2.5%;
+	width: 95%;
+}
+
+.fb_details {
+	clear: left;
+	font-size: 10pt;
+	background: #F4B8AB;
+	padding: 0.5px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.solicitor, .actions {
+	float: left;
+	width: 50%;
+	display: block;
+}
+
+.summary, .breakdown, .conditions {
+	clear: left;
+	padding-top: 10px;
+}
+
+.ill_desc {
+	float: left;
+	width: 65%;
+}
+
+.ill_value {
+	float: left;
+	width: 25%;
+}
+
+fieldset, .result-count {
+	clear: both;
+}
+
+legend {
+	font-weight: bold;
+	margin-top: 10px !important;
+}
